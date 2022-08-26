@@ -1,0 +1,63 @@
+.pottery {
+    width: 100%;
+    padding: 0 2em;
+    box-sizing: border-box;
+    background-image: url("./../../Images/background.png");
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    justify-content: center;
+    text-align: start;
+    margin-bottom: 3em;
+}
+
+.pottery ul {
+    padding: 0;
+}
+
+.pottery ul li {
+    list-style: none;
+}
+
+
+.pottery ul li:nth-child(1) {
+    font-weight: 400;
+    font-size: 14px;
+    color: #D77474;
+    line-height: 24px;
+    margin-bottom: 7px;
+}
+
+.pottery ul li:nth-child(2) {
+    font-weight: 700;
+    font-size: 36px;
+    color: black;
+    line-height: 46px;
+    margin-bottom: 13px;
+}
+
+.pottery ul li span a{
+    color: #AC1313;
+    border-bottom: 1px solid red;
+}
+
+.pottery ul li:nth-child(3) {
+    color: #6C6C6C;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    width: 420px;
+    margin-bottom: 30px;
+}
+
+.pottery ul li button {
+    width: 195px;
+    height: 62px;
+    background-color: #AC1313;
+    color: white;
+    font-size: 12px;
+    border: none;
+}

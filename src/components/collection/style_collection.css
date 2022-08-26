@@ -1,0 +1,43 @@
+.collection {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3em;
+    /* padding: 0 2em; */
+}
+
+.collection__title {
+    font-weight: 700;
+    font-size: 14px;
+    color:#D77474;
+    margin-bottom: 17px;
+}
+
+.collection h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.collection__gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.collection__button {
+    width: 210px;
+    height: 60px;
+    background-color: #AC1313;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+}

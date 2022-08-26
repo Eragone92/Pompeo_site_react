@@ -1,0 +1,28 @@
+.collectionCard {
+    box-sizing: border-box;
+    width: 371px;
+    height: auto;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+.collectionCard__image {
+    width: 371px;
+    height: 490px;
+    margin-bottom: 20px;
+}
+
+.collectionCard__title {
+    font-weight: 400;
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+.collectionCard__price {
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 35px;
+}
+

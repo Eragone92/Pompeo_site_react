@@ -1,0 +1,70 @@
+.letastNews {
+    width: 100%;
+    height: 470px;
+    padding: 0 2em;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.letastNews ul {
+    padding: 0;
+    list-style: none;
+}
+
+.letastNews__img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 40px;
+}
+
+
+.letastNews ul li:nth-child(2) {
+   font-size: 14px;
+   font-weight: 700;
+   color: #D77474;
+   margin-bottom: 8px;
+}
+
+.letastNews ul li:nth-child(3) {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-bottom: 60px;
+}
+
+.letastNews ul li:nth-child(3) span::before{
+   content: url("./../../Images/&.png")
+}
+
+.letastNews ul li:nth-child(4) input {
+    width: 320px;
+    height: 45px;
+}
+
+.letastNews ul li:nth-child(4) button {
+    width: 175px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+.letastNews ul li:nth-child(4) {
+    margin-bottom: 40px;
+}
+
+.letastNews ul li:nth-child(5) {
+    font-size: 14px;
+    font-weight: 400;
+    color: #A1A1A1;
+}
+
+.letastNews ul li:nth-child(5):before {
+    content: url("./../../Images/Rectangle.jpg");
+    width: 13px;
+    height: 13px;
+    margin-right: 10px;
+}

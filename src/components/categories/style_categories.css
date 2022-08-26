@@ -1,0 +1,121 @@
+.categories__list_one-img {
+    background-image: url("../../Images/image_one.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+}
+
+.categories {
+    width: 100%;
+    box-sizing:border-box;
+    padding: 0 2em;
+    margin-bottom: 3em;
+}
+.categories__list_one {
+    background-color: #E4B366;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 30px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+}
+
+.categories__list_one-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.categories__list_two {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #F05B10;
+    border: 30px solid rgba(0, 0, 0, 0.05);
+}
+
+.categories__list_two-img {
+    background-image: url("../../Images/imageTwo.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+}
+
+.categories__list_three {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #A21010;
+    border: 30px solid rgba(0, 0, 0, 0.05);
+}
+
+.categories__list_three-img {
+    background-image: url("../../Images/imageThree.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+}
+
+.categories__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.categories h3 {
+    color: #D77474;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.categories h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.categories__img::before {
+    content: url("../../Images/&.png");
+    width: 80px;
+    height: 80px;
+}
+
+.categories__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categories__footer_left, .categories__footer_right {
+    width: 40%;
+    text-align: start;
+    color: #6C6C6C;
+    box-sizing: border-box;
+}
+
+.categories__footer_left h3, .categories__footer_right h3 {
+   font-size: 29px;
+   font-weight: 700;
+   color: black;
+   width: 300px;
+}
